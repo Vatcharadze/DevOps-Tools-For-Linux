@@ -1,5 +1,9 @@
 #!/bin/bash
 
+
+read -p "Start Installation? (y/n): " choice
+if [ "$choice" == "y" ]; then
+
 set -e
 
 echo -e "\e[1;45m===HELLO $USER !===\e[0m"
@@ -36,4 +40,4 @@ sudo apt install htop -y net-tools -y
 echo -e "\e[1;45m***This Is A Typical Stack For DevOps***\e[0m"
 echo -e "\e[1;45m*** Git + Docker + Kubernetes + Terraform + Ansible + CI/CD + Monitoring ***\e[0m"
 
-
+fi
