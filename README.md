@@ -1,5 +1,6 @@
 # 🚀 DevOps Tools Installer for Linux
-
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange)
 This project is a Bash script that automatically installs a typical DevOps tool stack on Ubuntu/Debian-based Linux systems.
 
 It helps beginners and DevOps engineers quickly set up their environment with essential tools.
@@ -101,4 +102,5 @@ Feel free to fork the repository and submit a pull request.
 ## 📄 License
 
 This project is open-source and available under the MIT License.
+
 
